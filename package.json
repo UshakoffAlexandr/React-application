@@ -2,6 +2,7 @@
   "name": "todoshka",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ushakoffalexandr.github.io/React-application/",
   "dependencies": {
     "@date-io/date-fns": "^1.3.13",
     "@testing-library/jest-dom": "^5.17.0",
