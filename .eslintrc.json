@@ -9,9 +9,7 @@
     "plugin:react/recommended",
     "plugin:prettier/recommended",
     "plugin:import/errors",
-    "plugin:import/warnings",
-    "plugin:react-hooks/recommended",
-    "prettier"
+    "plugin:import/warnings"
   ],
   "parserOptions": {
     "ecmaFeatures": {

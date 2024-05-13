@@ -1,13 +1,13 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 
-import Task from "../Task/Task";
+import Task from '../Task/Task'
 
-import "./taskList.css";
+import './taskList.css'
 
 export default class TaskList extends Component {
   render() {
-    const { tasks, onDeleted, onToggleDone } = this.props;
+    const { tasks, onDeleted, onToggleDone } = this.props
     return (
       <div className="todo-list">
         {tasks.map((task) => (
@@ -19,16 +19,16 @@ export default class TaskList extends Component {
           />
         ))}
       </div>
-    );
+    )
   }
 }
 
 TaskList.defaultProps = {
   tasks: [],
-};
+}
 
 TaskList.propTypes = {
   tasks: PropTypes.arrayOf(PropTypes.shape),
   onDeleted: PropTypes.func.isRequired,
   onToggleDone: PropTypes.func.isRequired,
-};
+}
