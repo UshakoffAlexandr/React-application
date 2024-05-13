@@ -6,6 +6,7 @@ import TaskList from './components/TaskList/TaskList'
 import Footer from './components/Footer/Footer'
 
 import './app.css'
+import './index.css'
 
 export default class App extends Component {
   state = {
