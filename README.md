@@ -1,1 +1,2 @@
-https://react-application-git-main-ushakoffalexandrs-projects.vercel.app/
+
+https://react-application-ruddy.vercel.app/
