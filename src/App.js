@@ -39,7 +39,7 @@ export default class App extends Component {
 
   addTask = (text) => {
     this.setState(({ tasks }) => ({
-      tasks: [...tasks, { id: tasks.length + 1, text, createdTime: new Date() }],
+      tasks: [...tasks, { id: tasks.length + 1, text, done: false, createdTime: new Date() }],
     }))
   }
 
