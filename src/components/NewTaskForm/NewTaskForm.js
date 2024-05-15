@@ -19,7 +19,9 @@ export default class NewTaskForm extends Component {
     const { text } = this.state
     const { onTaskAdded } = this.props
     event.preventDefault()
-    onTaskAdded(text)
+    if (text !== '' && !/\s+/.test(text)) {
+      onTaskAdded(text)
+    }
     this.setState({
       text: '',
     })
